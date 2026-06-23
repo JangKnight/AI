@@ -10,7 +10,7 @@ THERE ARE NO EXPERTS. ONLY THOSE WHO PRETEND TO BE. DO NOT GO PAYING THOUSANDS O
 Controls how the AI communicates and acts. Without it, you get verbose explanations, over-apologizing, and blind execution of risky commands.
 
 ### 2. Stack Constraints
-Tells the AI exactly what tools, versions, and architecture you're using. Without it, it guesses — and guesses wrong.
+Tells the AI exactly what tools, versions, and architecture you're using.
 
 ### 3. Domain Vocabulary ← most overlooked
 Maps your project's terms so the AI doesn't hallucinate naming conventions. If "Client" means something specific in your codebase, say so here. The AI will use it consistently everywhere.
@@ -20,7 +20,7 @@ Maps your project's terms so the AI doesn't hallucinate naming conventions. If "
 ## Scope
 
 ---
-Claude has three scopes for CLAUDE.md — they stack in order:
+Claude has three scopes for CLAUDE.md:
 
 | Scope | File Location | Loaded When |
 |---|---|---|
@@ -31,7 +31,7 @@ Claude has three scopes for CLAUDE.md — they stack in order:
 Lower scope wins on conflicts. Put global behavior rules at user scope, project-specific stack/vocab at project scope.
 
 
-Codex CLI reads `AGENTS.md` before working — same 3-section pattern as Claude. Place it in your repo root. Codex merges files it finds walking up from the current directory, so scope works the same way.
+Codex CLI reads `AGENTS.md` before working which is the same 3-section pattern as Claude. 
 
 ```
 ~/.codex/AGENTS.md        ← global rules (behavior, style)
@@ -39,7 +39,7 @@ Codex CLI reads `AGENTS.md` before working — same 3-section pattern as Claude.
 <repo>/src/AGENTS.md      ← sub-folder overrides
 ```
 
-To override everything (useful for one-off sessions): `~/.codex/AGENTS.override.md` — this wins over all other files.
+To override everything (useful for one-off sessions): `.../AGENTS.override.md` .
 
 ---
 
@@ -65,7 +65,7 @@ Define each role as an XML block. Invoke by name in your prompt.
 
   <qa>
     Scope: adversarial review. Find edge cases, failure modes, and coverage gaps.
-    Never defend the implementation — your job is to break it.
+    Never defend the implementation. Your job is to break it.
     Output: list of test cases and open risks, ranked by severity.
   </qa>
 </agents>
@@ -145,7 +145,7 @@ stack:
 
 vocabulary:
   Tenant: Corporate enterprise account, keyed by tenant_id (UUID)
-  Seat: Individual license within a Tenant — not a User
+  Seat: Individual license within a Tenant (not a User)
 ```
 
 Schema (when needed):
@@ -184,5 +184,5 @@ stack:
 
 vocabulary:
   Tenant: The corporate enterprise account (mapped via tenant_id)
-  Seat: An individual license assigned to a user within a Tenant — not the same as a User
+  Seat: An individual license assigned to a user within a Tenant (not the same as a User)
 ```
