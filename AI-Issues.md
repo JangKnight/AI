@@ -1,9 +1,0 @@
-These are just gathered facts. I am not anti ai, but I must be pro human and anything protecting the longevity of humanity.
-
-We used to want clean energy, and now, we're using so much energy we've decided to not only expand natural gas infrastructure but also postpone the closing of coal plants. Our current EPA admin has effectively challenged greenhouse gas findings established in 2009 lol. This has been in effect for almost two decades, and now, it's gone just so they no longer have to federally deal with environmental issues caused by data centers. Carbon monoxide concentrations have spiked. We used to talk about tree planting initiatives. 
-
-We're using billions of gallons of water. In 2023, VA alone used 2.1 billion gallons of water just for data centers. We used to talk about strategies for flushing toilets that were supposed to help preserve water lol. In just the Washington Metropolitan Area alone this consumption will have a 3x increase within the next decade. God forbid a drought happens. AI cannot create water and no billionaire or trillionaire can or will come to these people's aid.
-
-100s of thousands of people are losing their jobs. We used to talk so much about caring about the future generations and longevity. These kids are graduating and cannot get employed. Sam Altman said he is "happy he can confirm AI will [create lots of unemployment]" and goes on to say he doesn't know what people will do with the newfound "free time". The disconnection is surreal.
-
-I want to make it very clear that I do not condone extremism, violence, or any illegal activity. I am simply stating that the current trajectory of AI development and deployment is unsustainable and poses significant risks to humanity's future. We need to have serious conversations about the ethical implications, environmental impact, and societal consequences of AI technologies.
